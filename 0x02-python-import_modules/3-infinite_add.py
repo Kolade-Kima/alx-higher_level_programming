@@ -9,6 +9,6 @@ if __name__ == "__main__":
         while i < argvLen:
             res = res + int(argv[i])
             i = i + 1
-            print("{:d}".format(res), end="\n")
-        else:
-            print("{:d}".format(0), end="\n")
+        print("{:d}".format(res), end="\n")
+    else:
+        print("{:d}".format(0), end="\n")
